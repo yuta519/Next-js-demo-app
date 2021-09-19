@@ -18,12 +18,12 @@ export default function Deposits() {
   const classes = useStyles();
   return (
     <React.Fragment>
-      <Title>Recent Deposits</Title>
+      <Title>Amazon</Title>
       <Typography component="p" variant="h4">
-        $3,024.00
+        Go to details
       </Typography>
       <Typography color="textSecondary" className={classes.depositContext}>
-        on 15 March, 2021
+        updated on 15 March, 2021
       </Typography>
       <div>
         <Link color="primary" href="#" onClick={preventDefault}>
