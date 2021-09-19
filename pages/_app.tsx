@@ -35,3 +35,9 @@ MyApp.propTypes = {
   Component: PropTypes.elementType.isRequired,
   pageProps: PropTypes.object.isRequired,
 };
+
+// import '../styles/globals.scss'
+
+// export default function App({ Component, pageProps }) {
+//   return <Component {...pageProps} />
+// }

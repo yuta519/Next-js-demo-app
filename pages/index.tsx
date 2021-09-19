@@ -22,11 +22,17 @@ export default function Index() {
       </Box>
       <Box>
         <Grid container>
-          <Grid item xs={4}><Card/></Grid>
-          <Grid item xs={4}><Card/></Grid>
-          <Grid item xs={4}><Card/></Grid>
+          <Grid item xs={4}><Card title="AWS"/></Grid>
+          <Grid item xs={4}><Card title="Google"/></Grid>
+          <Grid item xs={4}><Card title="Facebook"/></Grid>
+        </Grid>
+        <Grid container>
+          <Grid item xs={4}><Card title="Apple"/></Grid>
+          <Grid item xs={4}><Card title="Microsoft"/></Grid>
+          <Grid item xs={4}><Card title="Netflix"/></Grid>
         </Grid>
       </Box>
+      <a href="https://nextjs.org/">NextJS</a>
       </Container>
     </>
   );
